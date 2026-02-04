@@ -204,9 +204,9 @@ show_menu() {
     echo -e "${WHITE}${BOLD} 4)${NC} ${WHITE}Blueprint & Extras (ComingSoon)${NC}"
     echo -e "${WHITE}${BOLD} 5)${NC} ${WHITE}Cloudflare Setup${NC}"
     echo -e "${WHITE}${BOLD} 6)${NC} ${WHITE}System Information${NC}"
-    echo -e "${WHITE}${BOLD} 5)${NC} ${WHITE}Tmate Setup${NC}
-    echo -e "${WHITE}${BOLD} 7)${NC} ${WHITE}Tailscale Setup${NC}"
-    echo -e "${WHITE}${BOLD} 8)${NC} ${WHITE}Database Setup${NC}"
+    echo -e "${WHITE}${BOLD} 7)${NC} ${WHITE}Tmate Setup${NC}
+    echo -e "${WHITE}${BOLD} 8)${NC} ${WHITE}Tailscale Setup${NC}"
+    echo -e "${WHITE}${BOLD} 9)${NC} ${WHITE}Database Setup${NC}"
     echo -e "${WHITE}${BOLD} 0)${NC} ${RED}Exit${NC}"
 
     print_header_rule
