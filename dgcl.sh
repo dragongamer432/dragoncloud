@@ -198,16 +198,17 @@ show_menu() {
     big_header "MAIN MENU"
     print_header_rule
 
-    echo -e "${WHITE}${BOLD} 1)${NC} ${WHITE}Panel Installation${NC}"
-    echo -e "${WHITE}${BOLD} 2)${NC} ${WHITE}Wings Installation${NC}"
-    echo -e "${WHITE}${BOLD} 3)${NC} ${WHITE}Uninstall Tools${NC}"
-    echo -e "${WHITE}${BOLD} 4)${NC} ${WHITE}Blueprint & Extras (ComingSoon)${NC}"
-    echo -e "${WHITE}${BOLD} 5)${NC} ${WHITE}Cloudflare Setup${NC}"
-    echo -e "${WHITE}${BOLD} 6)${NC} ${WHITE}System Information${NC}"
-    echo -e "${WHITE}${BOLD} 7)${NC} ${WHITE}Tmate Setup${NC}
-    echo -e "${WHITE}${BOLD} 8)${NC} ${WHITE}Tailscale Setup${NC}"
-    echo -e "${WHITE}${BOLD} 9)${NC} ${WHITE}Database Setup${NC}"
-    echo -e "${WHITE}${BOLD} 0)${NC} ${RED}Exit${NC}"
+echo -e "${WHITE}${BOLD} 1)${NC} ${WHITE}Panel Installation${NC}"
+echo -e "${WHITE}${BOLD} 2)${NC} ${WHITE}Wings Installation${NC}"
+echo -e "${WHITE}${BOLD} 3)${NC} ${WHITE}Uninstall Tools${NC}"
+echo -e "${WHITE}${BOLD} 4)${NC} ${WHITE}Blueprint & Extras (ComingSoon)${NC}"
+echo -e "${WHITE}${BOLD} 5)${NC} ${WHITE}Cloudflare Setup${NC}"
+echo -e "${WHITE}${BOLD} 6)${NC} ${WHITE}System Information${NC}"
+echo -e "${WHITE}${BOLD} 7)${NC} ${WHITE}Tmate Setup${NC}"
+echo -e "${WHITE}${BOLD} 8)${NC} ${WHITE}Tailscale Setup${NC}"
+echo -e "${WHITE}${BOLD} 9)${NC} ${WHITE}Database Setup${NC}"
+echo -e "${WHITE}${BOLD} 0)${NC} ${RED}Exit${NC}"
+
 
     print_header_rule
     echo -ne "${YELLOW}Select an option [0-8]: ${NC}"
